@@ -68,6 +68,9 @@ footer p {
     font-size: 14px;
     line-height: 20px;
 }
+footer i {
+    padding-right: 10px;
+}
 .tittle-footer{
     font-size: 18px;
     margin-bottom: 16px;

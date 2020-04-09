@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
+    <title>Portafolio Julio Cesar</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -25,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Portafolio </a>
+                    <a class="nav-link" href="index.html">About </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="curriculum.html">Cv</a>
+                    <a class="nav-link" href="index.html">Portafolio </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="curriculum.html">curriculum</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contacto" tabindex="-1" aria-disabled="true">Contacto</a>
@@ -39,23 +37,40 @@
             </ul>
         </div>
     </nav>
-    <section class="mt-4">
-        <embed src="./assets/cv.pdf" type="application/pdf" width="100%" height="600px" />
-
+    <section class="container mb-4" style="padding-top: 77px;">
+        <object data="./assets/cv.pdf" type="application/pdf" width="100%" height="600px">
+            <p>Your web browser doesn't have a PDF plugin.
+            Instead you can <a href="./assets/cv.pdf">click here to
+            download the PDF file.</a></p>
+          </object>
+        <!-- <object width="900" height="900" data="https://docs.google.com/gview?embedded=true&url=http://jimbosjoint.com/assets/img/jimbosmenu.pdf"></object> -->
+        <!-- <embed src="./assets/cv.pdf" type="application/pdf" width="100%" height="600px%" /> -->
     </section>
 
     <footer id="contacto" class="bg-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <strong>Email:</strong>
-                    <span>juliocesarjcrs@gmail.com</span>
+            <div class="row mt-4">
+                <div class="col-12 col-6 pt-4">
+                    <p class="tittle-footer">Contacto</p>
+                    <p>
+                        <i class="fab fa-whatsapp "></i>
+                        +57 301 296 2217
+                    </p>
+                    <p>
+                        <i class="fas fa-map-marked-alt"></i>
+                        Bucaramanga-Colombia
+                    </p>
+                    <p>
+                        <i class="far fa-envelope-open"></i>
+                        juliocesarjcrs@gmail.com
+                    </p>
                 </div>
                 <div class="col-6"></div>
             </div>
         </div>
     </footer>
 </body>
+<script src="https://kit.fontawesome.com/f9903363eb.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -65,5 +80,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 
 </html>

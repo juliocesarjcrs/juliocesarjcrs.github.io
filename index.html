@@ -7,9 +7,7 @@
     <title>Portafolio Julio Cesar</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
+
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -137,7 +135,7 @@
                   <div class="biography">
                     Participación en e el desarrollo desde ceor del Módulo clientes.Maquetar en Boostrap 4 a partir de un diseño dado -Funcionalidad en Vue js, validaciones con VeeValidate, Vuex, Vue Router -Diseño inicial de la base de datos -Backend en php con Laravel 5.6, manejador de dependencias composer, Login, MVC, carga documentos Pdf
                 </div>
-                <a href="#" class="">Continue reading</a>
+                <a href="" class="show continue-reading" onclick="continuarLeyendo(event)">Continuar leyendo</a>
                 </div>
                 <div class="col-auto d-none d-lg-block">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -176,14 +174,13 @@
                   <div class="col p-4 d-flex flex-column position-static">
                     <strong class="d-inline-block mb-2 text-primary">Software parking</strong>
                     <h3 class="mb-0">Habilidades Desarrolladas:</h3>
-                    <div class="mb-1 text-muted">Boostrap 4 | PHP | Laravel 5.6 | Vue Js | Javascript| Mysql</div>
-                    <div class="biography">
-                        Participación en e el desarrollo desde ceor del Módulo clientes.Maquetar en Boostrap 4 a partir de un diseño dado -Funcionalidad en Vue js, validaciones con VeeValidate, Vuex, Vue Router -Diseño inicial de la base de datos -Backend en php con Laravel 5.6, manejador de dependencias composer, Login, MVC, carga documentos Pdf
+                    <div class="mb-1 text-muted">Element UI  | Laravel 5.8 | Vue Js | Javascript| Mysql</div>
+                    <div class="show biography">
+                        Software web de un parqueadero para el control de ingreso de motocicletas y bicicletas. Registro de ingreso, por día, impresión de recibo. Vista de mensualidades. Buscadores remotos para clientes.
                     </div>
-                    <a href="#" class="">Continue reading</a>
+                    <a href="" class="show continue-reading" onclick="continuarLeyendo(event)">Continuar leyendo</a>
                   </div>
-                  <!-- <embed src="./assets/1-Prueba.wmv" autostart="false" height="30" width="144" /> -->
-                  <div class="col-auto d-none d-lg-block">
+                  <div class="show-img-video col-auto d-none d-lg-block">
                     <video width="100%" height="240" controls>
                         <source src="./assets/1-Prueba.mp4" type="video/mp4">
                       Your browser does not support the video tag.
@@ -198,17 +195,20 @@
     </section>
     <footer id="contacto" class="bg-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
+            <div class="row mt-4">
+                <div class="col-12 col-6 pt-4">
                     <p class="tittle-footer">Contacto</p>
                     <p>
-                        WhatsApp: +57 301 296 2217
+                        <i class="fab fa-whatsapp "></i>
+                        +57 301 296 2217
                     </p>
                     <p>
+                        <i class="fas fa-map-marked-alt"></i>
                         Bucaramanga-Colombia
                     </p>
                     <p>
-                        Email: juliocesarjcrs@gmail.com
+                        <i class="far fa-envelope-open"></i>
+                        juliocesarjcrs@gmail.com
                     </p>
                 </div>
                 <div class="col-6"></div>
@@ -216,6 +216,7 @@
         </div>
     </footer>
 </body>
+<script src="https://kit.fontawesome.com/f9903363eb.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
