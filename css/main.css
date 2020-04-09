@@ -42,7 +42,19 @@ body {
 .bg-grey{
     background-color: rgb(65, 60, 60);
 }
+/* for poratafolio --------------------------------- */
 
+.biography{
+    display: block;
+    display: -webkit-box;
+    height: 20px * 1.4 * 3;
+    font-size: 20px;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* para el footer */
 
 footer p {
