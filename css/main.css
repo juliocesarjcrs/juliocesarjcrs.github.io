@@ -30,6 +30,8 @@ body {
 .img-foto-perfil{
     height: 200px;
     opacity: 1;
+}.img-foto-perfil:hover{
+    opacity: 0.8;
 }
 .info{
     padding-top: 130px;
